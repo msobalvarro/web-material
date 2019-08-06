@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Materialize</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="icon" href="img/apple-touch-icon-152x152.png">
+    <link rel="stylesheet" href="./css/master.css">
+    <script type="text/javascript" src="./js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+</head>
+
+<body class="grey lighten-5">
+    <div class="navbar-fixed">
+        <nav class="red lighten-1">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo margin-left-2">
+                    <img src="img/materialize-logo-white.png" class="scale-min-2 center-vertical">
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#informacion">Información</a>
+                    </li>
+                    <li>
+                        <a href="#creadores">Creadores</a>
+                    </li>
+                    <li>
+                        <a href="#uso">Como Usarlo</a>
+                    </li>
+                    <li>
+                        <a href="#estructura">Estructura</a>
+                    </li>
+                    <li>
+                        <a href="#ejemplos">Ejemplos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/background3.jpg">
+                <div class="caption center-align">
+                    <h1>Materialize</h1>
+                    <h5 class="light grey-text text-lighten-3">Un marco de trabajo para interfaces web moderno, responsivo y basado en Material Design</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/css3-media-queries.jpg">
+                <div class="caption center-align">
+                    <h3>Responsive Design</h3>
+                    <h5 class="light grey-text text-lighten-3">Materialize arma poderosa para diseño web mobile</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/codigo.png">
+                <div class="caption center-align">
+                    <h3>Más diseño menos Código</h3>
+                    <h5 class="light grey-text text-lighten-3">Jquery + Materialize = &#10084; </h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="row scrollspy" id="informacion">
+        <div class="col s12 m12 l6">
+            <div class="promo center">
+                <img src="img/google.png" alt="" class="max-large-1 margin-auto">
+                <h3 class="promo-caption blue-text">Quienes lo crearon</h3>
+                <p class="light">
+                    Diseñado y diseñado por Google, Material Design es un lenguaje de diseño que combina los principios clásicos de diseño exitoso junto con la innovación y la tecnología. El objetivo de Google es desarrollar un sistema de diseño que permita una experiencia de usuario unificada en todos sus productos en cualquier plataforma.
+                </p>
+            </div>
+        </div>
+        <div class="col s12 m12 l6">
+            <div class="promo center">
+                <img src="img/materialize-logo.png" alt="" class="max-large-1 margin-auto">
+                <h3 class="promo-caption red-text text-lighten-2">¿Y entonces qué es Materialize?</h3>
+                <p class="light">
+                    Pues ni más ni menos, es un Framework para el desarrollo Web con estilo Material Design. Está desarrollado en SASS y hace uso de las buenas prácticas en HTML5, CSS3 y Javascript. Materializecss cuenta con un sistema de rejillas (grid) responsive adaptable a pantallas mayores a 992px, 600px y los menores a 600px, viene integrado con la fuente Roboto también propuesta por Google en su sistema de diseño Material Design.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row scrollspy" id="creadores">
+        <div class="col s6 m12 l6">
+            <div class="image-container">
+                <img src="img/creadores/materialize_team.jpg" class="max-large" alt="TEAM Materilize">
+            </div>
+        </div>
+        <div class="col s6 m12 l6">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m3 center-on-small-only">
+                        <div class="image-container">
+                            <img src="img/creadores/alvin.png" class="max-large">
+                        </div>
+                    </div>
+                    <div class="col s12 m9">
+                        <h4>Alvin Wang</h4>
+                        <p>
+                            Alvin es un Mayor de Interacciones de Sistemas de Información y Computación Humana. Trabajó como Ingeniero de Software en Fidelity Investments este verano pasado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3 center-on-small-only">
+                        <div class="image-container">
+                            <img src="img/creadores/Alan.png" class="max-large">
+                        </div>
+                    </div>
+                    <div class="col s12 m9">
+                        <h4>Alan Chang</h4>
+                        <p>
+                            Alan es un especialista en Sistemas de Información con un menor en ciencias de la computación. Trabajó como desarrollador de Front End en Shift Collaborative este verano pasado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col s6 m12 l8">
+            <div class="section">
+                <div class="row">
+                    <div class="col s3 m3 center-on-small-only">
+                        <div class="image-container">
+                            <img src="img/creadores/alex.png" class="max-large">
+                        </div>
+                    </div>
+                    <div class="col s8 m6">
+                        <h4>Alex Mark</h4>
+                        <p>
+                            Alex es un gran Sistemas de Información con un menor en Human Computer Interaction. Trabajó como desarrollador de software de Intuit el verano pasado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s3 m3 center-on-small-only">
+                        <div class="image-container">
+                            <img src="img/creadores/kevin.png" class="max-large">
+                        </div>
+                    </div>
+                    <div class="col s8 m6">
+                        <h4>Kevin Louie</h4>
+                        <p>
+                            Kevin es un gran Sistemas de Información con un menor en Human Computer Interaction. El verano pasado, trabajó como analista de tecnología de PPG Industries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m12 l4 hide-on-med-only">
+            <div class="image-container center-vertical">
+                <img src="img/celular.gif" class="margin-auto">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row scrollspy" id="uso">
+        <div class="col s12 l6 m12">
+            <h3 class="teal-text uppercase">Como usarlo</h3>
+            <p>
+                Esta es la versión estándar que viene con el CSS archivos JavaScript miniaturizada y unminified y. Esta opción requiere poca o ninguna configuración. Utilice esta opción si no está familiarizado con Sass.
+            </p>
+            <p>
+                Puedes descagar materialize en:
+                <a href="http://materializecss.com/getting-started.html">http://materializecss.com/getting-started.html</a>
+            </p>
+            <p>
+                <b class="blue-grey-text text-lighten-1">
+                    Recordemos que para usar Materialize deberemos integrar JQUERY para que todo vaya bien
+                </b>
+            </p>
+            <p>
+                Podremos encontrarlo por aca
+                <a href="https://jquery.com/download/">https://jquery.com/download/</a>
+            </p>
+        </div>
+        <div class="col s12 l6 m12">
+            <h3 class="teal-text uppercase">O bien</h3>
+            <p>Pegar el codigo directamente a nuestro documento HTML</p>
+            <pre class=" language-markup blue-grey lighten-5">
+                <code class=" language-markup">
+      <span class="token comment" spellcheck="true">&lt;!-- Nuestro Archivo CSS --&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><font></font>
+    <font></font>
+      <span class="token comment" spellcheck="true">&lt;!-- Nuestro Archivo JavaScript --&gt;</span>
+      <span class="token script language-javascript"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span></span>
+              </code>
+          </pre>
+        </div>
+    </div>
+    
+    <div class="section row scrollspy" id="estructura">
+        <h2 class="grey ligthen-3 center white-text padding-1 uppercase">
+            Nuestra estructura final
+        </h2>
+        <div class="col s12 l8 m12">
+            <pre class="blue-grey lighten-3 language-markup"><code class=" language-markup">
+  <span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+      <span class="token comment" spellcheck="true">&lt;!--Importamos materialize.css--&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>css/materialize.min.css<span class="token punctuation">"</span></span>  <span class="token attr-name">media</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>screen,projection<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><font></font>
+<font></font>
+      <span class="token comment" spellcheck="true">&lt;!--Permitir que el sitio web del navegador esté optimizado para móviles utilizando esta etiqueta --&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>width<span class="token punctuation">=</span>device-width, initial-scale<span class="token punctuation">=</span>1.0<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span><font></font>
+<font></font>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+      <span class="token comment" spellcheck="true">&lt;!--Importamos jQuery antes de materialize.js--&gt;</span>
+      <span class="token script language-javascript"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://code.jquery.com/jquery-3.2.1.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span></span>
+      <span class="token script language-javascript"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>js/materialize.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+        </div>
+        <div class="col s12 l4 m12 center-vertical">
+            <blockquote>
+                <h4 class="red-text text-lighten-2">Nuestro Resultado será fantástico</h4>
+            </blockquote>
+            <div class="image-container">
+                <img src="img/RWD_responsive_blog.png" class="max-large">
+            </div>
+        </div>
+    </div>
+
+  <div class="divider"></div>
+   
+   <div class="section scrollspy" id="ejemplos">
+        <h4 class="grey-text text-darken-1 center uppercase">Podemos ver ejemplos de Materialize</h4>
+        <div class="carousel carousel-slider z-depth-3" style="height: 500px;">
+            <a class="carousel-item" href="#"><img src="./img/resultados/img1.png"></a>
+            <a class="carousel-item" href="#"><img src="./img/resultados/img2.png"></a>
+            <a class="carousel-item" href="#"><img src="./img/resultados/img3.png"></a>
+            <a class="carousel-item" href="#"><img src="./img/resultados/img4.png"></a>
+        </div>
+    </div>
+   
+    <!--
+    <div class="parallax-container section scrollspy" id="inicio" style="height: 250px">
+        <div class="parallax">
+            <img src="img/html5.jpg">
+        </div>
+    </div>
+    -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Proyecto final de Multimedia y Realidad Virtual</h5>
+                    <p class="grey-text text-lighten-4">
+                        Hecha por:
+                        <ul class="white-text">
+                            <li>Merling Samuel Sobalvarro Reyes</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Componentes Usados</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://jquery.com/download/">Jquery</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Managua Nicaragua 2017 codigo fuente de esta pagina es libre
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/initialization.js" type="text/javascript"></script>
+</body>
+
+</html>

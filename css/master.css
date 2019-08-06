@@ -1,0 +1,56 @@
+body
+{
+    overflow-x: hidden;
+}
+img.scale-min-1
+{
+	max-width: 50px;
+}
+img.scale-min-2
+{
+	max-width: 75px;
+}
+.margin-left-1
+{
+	margin-left: 5px;
+}
+.margin-left-2
+{
+	margin-left: 10px;
+}
+.margin-left-3
+{
+	margin-left: 15px;
+}
+p.justify
+{
+	text-align: justify;
+}
+.margin-auto
+{
+	margin: auto; 
+}
+.center-vertical
+{
+	vertical-align: middle;
+}
+.uppercase
+{
+	text-transform: uppercase;
+}
+.max-large
+{
+    max-width: 100%;
+}
+.max-large-1
+{
+    max-width: 80%;
+}
+.logo-init
+{
+    width: 150px;
+}
+.padding-1
+{
+    padding: 15px 0;
+}
